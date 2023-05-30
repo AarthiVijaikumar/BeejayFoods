@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ol,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: poppins;
+    vertical-align: baseline;
+}
+
+
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.main-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section {
+    max-width: 1600px;
+    margin: 50px auto;
+}
+
+.main-container.banner {
+    background-image: url("images/Banner.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* / Media queries for tablet and mobile devices / */
+
+@media only screen and (max-width: 768px) {
+    /* / Tablet styles / */
+    .section {
+        width: 768px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* / Mobile styles / */
+    .section {
+        width: 480px;
+    }
+}
