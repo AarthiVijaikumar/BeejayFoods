@@ -57,7 +57,7 @@ h1 {
 p {
     color: #ffffff;
     font-family: "Poppins", Sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
     letter-spacing: 2px;
 }
@@ -121,11 +121,15 @@ body {
     transition: background 0.5s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 
+.text-wrapper:hover {
+    background-color: #67002F;
+}
+
 .text-wrapper p {
     text-align: center;
     color: #A18D7D;
     font-family: "Roboto", Sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
 }
 
