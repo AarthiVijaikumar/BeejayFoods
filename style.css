@@ -2,6 +2,27 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "eina-bold";
+    src: url("Fonts/Eina02-Bold.ttf");
+}
+
+@font-face {
+    font-family: "pronema-serif";
+    src: url("Fonts/pronemaSerif.ttf");
+}
+
+
+/* @font-face {
+    font-family: "pronema-serif";
+    src: url("Fonts/pronema-serif.otf") format("otf");
+}
+
+@font-face {
+    font-family: "custom";
+    src: url("Fonts/Dimmitry400.ttf");
+} */
+
 html,
 body,
 div,
@@ -22,8 +43,25 @@ li {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: poppins;
     vertical-align: baseline;
+}
+
+h1 {
+    font-family: 'Pronema Serif';
+    letter-spacing: 4px;
+    color: #FFFFFF;
+    font-size: 90px;
+    font-weight: 600;
+    text-shadow: 4px 4px 5px rgb(0 0 0 / 30%);
+    margin-top: -22px;
+}
+
+p {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 4px;
 }
 
 
@@ -42,8 +80,9 @@ body {
 }
 
 .section {
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 50px auto;
+    position: relative;
 }
 
 .main-container.banner {
