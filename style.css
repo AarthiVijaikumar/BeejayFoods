@@ -49,19 +49,17 @@ li {
 h1 {
     font-family: 'Pronema Serif';
     letter-spacing: 4px;
-    color: #FFFFFF;
     font-size: 90px;
     font-weight: 600;
-    text-shadow: 4px 4px 5px rgb(0 0 0 / 30%);
     margin-top: -22px;
 }
 
 p {
     color: #ffffff;
     font-family: "Poppins", Sans-serif;
-    font-size: 26px;
-    font-weight: 400;
-    letter-spacing: 4px;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 
 
@@ -79,17 +77,56 @@ body {
     margin: 0 auto;
 }
 
+.main-container.banner {
+    background-image: url("images/Banner.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .section {
     max-width: 1200px;
     margin: 50px auto;
     position: relative;
 }
 
-.main-container.banner {
-    background-image: url("images/Banner.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.section-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.inner-section1,
+.inner-section2 {
+    margin: 10px;
+}
+
+.sec-child {
+    text-align: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.text-wrapper {
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px 1px 1px 1px;
+    border-color: #67002F;
+    transition: background 0.5s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.text-wrapper p {
+    text-align: center;
+    color: #A18D7D;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
