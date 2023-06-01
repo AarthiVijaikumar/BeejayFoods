@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
 @font-face {
     font-family: "eina-bold";
     src: url("Fonts/Eina02-Bold.ttf");
@@ -60,16 +67,7 @@ p {
     font-size: 20px;
     font-weight: 300;
     letter-spacing: 2px;
-}
-
-
-/* Global styles */
-
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
+    text-align: justify;
 }
 
 .main-container {
@@ -95,8 +93,8 @@ body {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    max-width: 1200px;
-    margin: 50px auto;
+    max-width: 1250px;
+    margin: 20px auto;
     position: relative;
 }
 
@@ -121,31 +119,72 @@ body {
     transition: background 0.5s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 
-.text-wrapper:hover {
+.sec-vision-show {
+    display: none;
+}
+
+.show-hide:hover .sec-vision-show {
+    display: block;
+}
+
+.show-hide:hover .sec-vision {
+    display: none;
+}
+
+.show-hide:hover {
     background-color: #67002F;
+    cursor: pointer;
 }
 
 .text-wrapper p {
     text-align: center;
     color: #A18D7D;
     font-family: "Roboto", Sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
+}
+
+.section4-inner {
+    width: 50%;
+    padding-top: 100px;
+}
+
+.icon-box-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-box img {
+    width: 60px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+figcaption {
+    font-size: 12px;
+    color: #fff;
+    padding: 5px;
 }
 
 
 /* / Media queries for tablet and mobile devices / */
 
-@media only screen and (max-width: 768px) {
+@media(max-width: 768px) {
     /* / Tablet styles / */
     .section {
-        width: 768px;
+        max-width: 768px;
+    }
+    .section-flex {
+        flex-wrap: wrap;
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media(max-width: 480px) {
     /* / Mobile styles / */
     .section {
-        width: 480px;
+        max-width: 480px;
     }
 }
