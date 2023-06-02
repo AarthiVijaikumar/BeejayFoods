@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins';
     font-size: 16px;
     line-height: 1.5;
     color: #333;
@@ -58,7 +58,7 @@ h1 {
     letter-spacing: 4px;
     font-size: 90px;
     font-weight: 600;
-    margin-top: -22px;
+    color: #fff;
 }
 
 p {
@@ -69,6 +69,24 @@ p {
     letter-spacing: 2px;
     text-align: justify;
 }
+
+.subtitle {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'poppins';
+}
+
+.sec4-our-product {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-products-inner {
+    width: 70%;
+}
+
+.card-wrapper {}
 
 .main-container {
     width: 100%;
@@ -146,14 +164,15 @@ p {
 
 .section4-inner {
     width: 50%;
-    padding-top: 100px;
+    padding-top: 180px;
 }
 
 .icon-box-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
+    margin-top: 20px;
 }
 
 .icon-box img {
@@ -163,10 +182,142 @@ p {
     padding: 10px;
 }
 
+figure {
+    margin: 10px;
+    width: 20%;
+}
+
 figcaption {
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
     padding: 5px;
+}
+
+.icon-box-sec5 img {
+    background-color: unset;
+    border-radius: unset;
+}
+
+.icon-box-sec5 figcaption,
+.grid p {
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.icon-box-wrapper.sec5-icon-wrap {
+    width: 73%;
+}
+
+
+/* product card style */
+
+.card {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 20px 0 0;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+    padding: 20px;
+}
+
+.card .product-title {
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card p {
+    color: #000;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px auto 15px auto;
+}
+
+.card button {
+    position: absolute;
+    bottom: -20px;
+    right: 12%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'poppins';
+    letter-spacing: 1px;
+    background-color: #e74a0a;
+    width: 200px;
+    padding: 10px 15px 10px 15px;
+    border: unset;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+
+/* product card style end */
+
+.card-wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-5-inner-sec1 {
+    background-color: #bed630;
+    border-radius: 0 230px 230px 0;
+    padding: 80px 0px 80px 449px;
+    width: 55%;
+}
+
+.sec-5-inner-sec2 {
+    width: 45%;
+    margin: 0 auto 0 80px;
+}
+
+
+/**/
+
+.section-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grid {
+    width: 260px;
+    height: 300px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+    padding: 20px;
+    margin: 5px;
+}
+
+.grid-container:hover .grid {
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.why-millet-sec p {
+    color: #929e1d;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgb(232, 245, 113);
 }
 
 
@@ -178,7 +329,13 @@ figcaption {
         max-width: 768px;
     }
     .section-flex {
-        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .section-row {
+        flex-direction: column;
+    }
+    .grid {
+        width: 100%;
     }
 }
 
