@@ -65,7 +65,7 @@ p {
     color: #ffffff;
     font-family: "Poppins", Sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
     text-align: justify;
 }
@@ -113,6 +113,7 @@ p {
     align-items: center;
     max-width: 1250px;
     margin: 20px auto;
+    padding: 40px 0;
     position: relative;
 }
 
@@ -280,7 +281,7 @@ figcaption {
 .sec-5-inner-sec1 {
     background-color: #bed630;
     border-radius: 0 230px 230px 0;
-    padding: 80px 0px 80px 449px;
+    padding: 80px 0px 80px 350px;
     width: 55%;
 }
 
@@ -316,8 +317,97 @@ figcaption {
     color: #929e1d;
     text-align: center;
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 22px;
     text-shadow: 2px 2px 4px rgb(232, 245, 113);
+}
+
+.section-flex.form-flex {
+    max-width: 880px;
+    align-items: center;
+}
+
+.form-sec1 {
+    width: 50%;
+    padding: 20px;
+}
+
+.form-sec2 {
+    width: 50%;
+}
+
+form input,
+textarea {
+    width: 100%;
+    padding: 18px;
+    margin-bottom: 20px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: 'poppins';
+    font-size: 14px;
+}
+
+form input[type="submit" i] {
+    border: none;
+    background: #bed630;
+    padding: 10px 60px 10px 60px;
+    font-size: 18px;
+    font-family: 'poppins';
+    border-radius: 10px;
+    font-weight: 400;
+    width: 15%;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin-top: -44px;
+}
+
+.form-h1 {
+    text-align: center;
+    color: #72bf44;
+    font-family: 'eina-bold';
+    font-weight: 500;
+    font-size: 60px;
+    letter-spacing: -1px;
+}
+
+.form-p {
+    text-align: center;
+    color: #000;
+    letter-spacing: 0x;
+    font-size: 44px;
+}
+
+.form-style label {
+    font-size: 16px;
+    font-weight: 700;
+    font-style: 'poppins';
+    letter-spacing: 1px;
+}
+
+.footer .footer-tagline {
+    text-align: center;
+    background: #67002e;
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding: 15px 50px;
+    font-weight: 600;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.footer .footer-tagline2 {
+    color: #000;
+    font-family: 'eina-bold';
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0px;
 }
 
 
@@ -326,6 +416,9 @@ figcaption {
 @media(max-width: 768px) {
     /* / Tablet styles / */
     .section {
+        max-width: 768px;
+    }
+    .section-flex {
         max-width: 768px;
     }
     .section-flex {
@@ -342,6 +435,9 @@ figcaption {
 @media(max-width: 480px) {
     /* / Mobile styles / */
     .section {
+        max-width: 480px;
+    }
+    .section-flex {
         max-width: 480px;
     }
 }
