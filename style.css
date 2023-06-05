@@ -51,6 +51,16 @@ li {
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #67002F;
 }
 
 h1 {
@@ -321,6 +331,11 @@ figcaption {
     text-shadow: 2px 2px 4px rgb(232, 245, 113);
 }
 
+.main-container.contact {
+    background-color: #fff;
+    margin-top: 120px;
+}
+
 .section-flex.form-flex {
     max-width: 880px;
     align-items: center;
@@ -389,6 +404,12 @@ form input[type="submit" i] {
     letter-spacing: 1px;
 }
 
+.section.footer {
+    text-align: center;
+    padding-top: 55px;
+    margin-top: 120px;
+}
+
 .footer .footer-tagline {
     text-align: center;
     background: #67002e;
@@ -399,6 +420,9 @@ form input[type="submit" i] {
     width: 50%;
     margin: 0 auto;
     border-radius: 15px;
+    position: absolute;
+    top: -65px;
+    translate: 50% 50%;
 }
 
 .footer .footer-tagline2 {
@@ -408,6 +432,18 @@ form input[type="submit" i] {
     font-weight: 500;
     font-size: 30px;
     letter-spacing: 0px;
+}
+
+.footer-content .socialmedia-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright p {
+    background: #98a51b;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
 }
 
 

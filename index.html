@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="main-container" style="background: url(images/Banner.png) no-repeat center;background-size: cover;min-height:840px;">
+    <div class="main-container banner" style="background: url(images/Banner.png) no-repeat center;background-size: cover;min-height:840px;">
         <img src="images/Top Logo.png" alt="Beejay_logo" style="margin: 50px auto 0 auto;display:block;padding: 15px 0;">
         <div class="section">
             <div style="position:absolute;top:175px;">
@@ -223,7 +223,7 @@
             </div>
         </div>
         <!-- section7 EOC -->
-        <div class="main-container" style="background-color:#ffffff;">
+        <div class="main-container contact">
             <div class="section">
                 <h1 class="form-h1">LOVE OUR PRODUCTS?</h1>
                 <p class="form-p">GET IN TOUCH</p>
@@ -252,33 +252,63 @@
             </div>
         </div>
         <!-- section8 EOC -->
-        <div class="main-container" style="background: url(images/Footer.png) no-repeat center bottom;background-size: cover;">
+        <div class="main-container" style="background: url(images/Footer.png) no-repeat center bottom;background-size: cover; background-color: rgba(190, 214, 48, 1)">
 
-            <div class="section footer" style="text-align: center;">
+            <div class="section footer">
                 <img src=" images/Bejay bottom.png " alt="Beejay_logo ">
                 <div>
-                    <p class="footer-tagline">CONNECT WITH HEALTHY LIFE</p>
-                    <p class="footer-tagline2">BeJay Agro Foods</p>
+                    <p class="footer-tagline ">CONNECT WITH HEALTHY LIFE</p>
+                    <p class="footer-tagline2 ">BeJay Agro Foods</p>
+                    <div class="footer-content ">
+                        <span style=" color:#000;font-size:26px;vertical-align: middle; "><img src="Icon/Location.png " alt="location-img ">#5, Teppakulam East, Madurai - 625009</span><br>
+                        <span style=" color:#000;font-size:26px;vertical-align: middle; ">
+                            <a href="mailto:bejayagroproducts@gmail.com "><img src="Icon/mail.png " alt="email-logo ">bejayagroproducts@gmail.com</a>
+                            <a href="tel:+919787667777 "><img src="Icon/MObile.png " alt="mobile-logo ">+91 9787667777</a><br>
+                            <span class="socialmedia-icon ">Follow @ <img src="Icon/fb.png " alt="fb-logo ">&nbsp;<img src="Icon/Ig.png " alt="insta-logo ">&nbsp;<img src="Icon/Wtsapp.png " alt="whatsapp-logo "></span>
+                        </span>
+                    </div>
                 </div>
             </div>
+            <div class="copyright ">
+                <p>Copyright@bejayagroproducts 2023. All rights reserved</p>
+            </div>
         </div>
+
         <!-- section9 EOC -->
         <script src="script.js "></script>
-        <!--  <form name="contactForm " onsubmit="return validateForm() " method="post ">
-        <label for="name ">Name:</label>
-        <input type="text " id="name " name="name " required><br><br>
+        <!-- <form method="post " action="send_email.php ">
+  <label for="name ">Name:</label>
+  <input type="text " id="name " name="name " required>
+  
+  <label for="email ">Email:</label>
+  <input type="email " id="email " name="email " required>
+  
+  <label for="message ">Message:</label>
+  <textarea id="message " name="message " required></textarea>
+  
+  <input type="submit " value="Submit ">
+  <p class="success-message " style="display: none; ">Thank you! Your message has been successfully submitted.</p>
+  <p class="error-message " style="display: none; ">Oops! Something went wrong. Please try again later.</p>
+</form>
 
-        <label for="email ">Email:</label>
-        <input type="email " id="email " name="email " required><br><br>
-
-        <label for="phone ">Phone Number:</label>
-        <input type="tel " id="phone " name="phone " required><br><br>
-
-        <label for="message ">Message:</label>
-        <textarea id="message " name="message " required></textarea><br><br>
-
-        <input type="submit " value="Submit ">
-    </form> -->
+if ($_SERVER["REQUEST_METHOD "] == "POST ") {
+  $name = $_POST["name "];
+  $email = $_POST["email "];
+  $message = $_POST["message "];
+  
+  // Set the recipient email address
+  $to = "your-email@example.com ";
+  
+  // Set the email subject
+  $subject = "New Contact Form Submission ";
+  
+  // Build the email content
+  $content = "Name: $name\n ";
+  $content .= "Email: $email\n ";
+  $content .= "Message: $message\n ";
+  
+  // Set the email headers
+  $headers = "From: $name <$email>"; // Send the email $success = mail($to, $subject, $content, $headers); if ($success) { echo "success"; } else { echo "error"; } } ?> .success-message { color: green; } .error-message { color: red; }-->
 </body>
 
 </html>
