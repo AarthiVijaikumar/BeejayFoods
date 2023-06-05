@@ -38,3 +38,11 @@ function validateForm() {
         return false;
     }
 }
+
+const scrollToEnquireForm = document.getElementById("scrollToEnquireForm");
+const enquireForm = document.getElementById("enquireform");
+console.log(scrollToEnquireForm, enquireForm)
+
+scrollToEnquireForm.addEventListener("click", function() {
+    enquireForm.scrollIntoView({ behavior: "smooth" });
+});

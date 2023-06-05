@@ -80,34 +80,9 @@ p {
     text-align: justify;
 }
 
-.subtitle {
-    font-size: 40px;
-    letter-spacing: 2px;
-    font-family: 'poppins';
-}
-
-.sec4-our-product {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-}
-
-.our-products-inner {
-    width: 70%;
-}
-
-.card-wrapper {}
-
 .main-container {
     width: 100%;
     margin: 0 auto;
-}
-
-.main-container.banner {
-    background-image: url("images/Banner.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .section {
@@ -127,8 +102,60 @@ p {
     position: relative;
 }
 
-.inner-section1,
-.inner-section2 {
+
+/* banner */
+
+.main-container.banner {
+    background-image: url("images/Banner.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 840px;
+}
+
+.main-container.banner img {
+    margin: 50px auto 0 auto;
+    display: block;
+    padding: 15px 0;
+}
+
+.section .banner-section {
+    position: absolute;
+    top: 175px;
+}
+
+.banner-section .p1 {
+    color: #67002F;
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.banner-section .heading {
+    color: #ffffff;
+    text-shadow: 4px 4px 5px rgb(0 0 0 / 30%);
+    margin-top: -22px;
+}
+
+.banner-section .desc {
+    font-size: 26px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    margin-top: -15px;
+}
+
+
+/* banner end */
+
+
+/* aboutus */
+
+.main-container.aboutus {
+    background-color: #ffffff;
+    min-height: 580px;
+}
+
+.aboutus-inner-sec1,
+.aboutus-inner-sec2 {
     margin: 10px;
 }
 
@@ -173,9 +200,59 @@ p {
     font-weight: 400;
 }
 
-.section4-inner {
+
+/* aboutus end */
+
+
+/* feature */
+
+.main-container.feature {
+    background: url(images/Raw&Health_banner.png) no-repeat center top;
+    background-size: cover;
+    min-height: 985px;
+}
+
+.subtitle {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'poppins';
+}
+
+.feature-inner .feature-h1 {
+    color: #ffffff;
+    text-shadow: 4px 4px 5px rgb(0 0 0 / 30%);
+    font-size: 84px;
+}
+
+.feature-inner .feature-p1 {
+    font-size: 27px;
+    color: #441800;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.feature-inner .feature-p2 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+    color: #f9e3d4;
+    line-height: 40px;
+    letter-spacing: 0px;
+    font-size: 23px;
+}
+
+.sec4-our-product {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-products-inner {
+    width: 70%;
+}
+
+.feature-inner {
     width: 50%;
-    padding-top: 180px;
+    padding-top: 114px;
 }
 
 .icon-box-wrapper {
@@ -183,7 +260,8 @@ p {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .icon-box img {
@@ -365,7 +443,7 @@ textarea::placeholder {
     font-size: 14px;
 }
 
-form input[type="submit" i] {
+.btn-wrapper .form-btn {
     border: none;
     background: #bed630;
     padding: 10px 60px 10px 60px;
@@ -374,6 +452,7 @@ form input[type="submit" i] {
     border-radius: 10px;
     font-weight: 400;
     width: 15%;
+    cursor: pointer;
 }
 
 .btn-wrapper {
@@ -397,7 +476,7 @@ form input[type="submit" i] {
     font-size: 44px;
 }
 
-.form-style label {
+form label {
     font-size: 16px;
     font-weight: 700;
     font-style: 'poppins';
