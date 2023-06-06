@@ -207,9 +207,9 @@ p {
 /* feature */
 
 .main-container.feature {
-    background: url(images/Raw&Health_banner.png) no-repeat center top;
+    background: url(images/Raw&Health_banner.png) no-repeat;
     background-size: cover;
-    min-height: 985px;
+    max-height: 1095px;
 }
 
 .subtitle {
@@ -240,14 +240,34 @@ p {
     font-size: 23px;
 }
 
-.sec4-our-product {
+.sec4-our-products {
+    position: relative;
+    
+}
+.our-products-wrapper{
     position: absolute;
     display: flex;
     justify-content: space-between;
+    top:95px;
 }
 
 .our-products-inner {
     width: 70%;
+}
+.our-products-inner .subtitle1{
+    font-weight: 500;
+    margin-top: -18px;
+    font-size: 36px;
+}
+.our-products-inner .subtitle2{
+    color:#000;
+    font-weight: 700;
+    font-size: 68px;
+    text-transform: uppercase; 
+}
+
+.card button{
+    cursor: pointer;
 }
 
 .feature-inner {
@@ -260,7 +280,7 @@ p {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 45px;
     margin-bottom: 40px;
 }
 
@@ -270,7 +290,14 @@ p {
     border-radius: 50%;
     padding: 10px;
 }
+/* feature end */
 
+/* milletify */
+.main-container.milletify{
+    background-color:#ffffff;
+    min-height:580px;
+    margin-top:655px;
+}
 figure {
     margin: 10px;
     width: 20%;
@@ -366,20 +393,45 @@ figcaption {
     justify-content: space-between;
 }
 
-.sec-5-inner-sec1 {
+.millet-inner-sec1 {
     background-color: #bed630;
     border-radius: 0 230px 230px 0;
     padding: 80px 0px 80px 350px;
     width: 55%;
 }
 
-.sec-5-inner-sec2 {
+.millet-inner-sec2 {
     width: 45%;
     margin: 0 auto 0 80px;
 }
 
 
-/**/
+/*milletify end*/
+
+/*why-millet*/
+.why-millet-sec1{
+    width:40%;
+    text-align:center;
+    margin-right:70px;
+}
+
+.why-millet-sec2{
+    width:60%;
+    flex-direction: column;
+}
+
+.why-millet-sec1 .why-millet-h1{
+    color:#000;
+    font-size: 68px;  
+}
+
+.why-millet-sec1 p {
+    color: #929e1d;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px rgb(232, 245, 113);
+}
 
 .section-row {
     display: flex;
@@ -400,15 +452,17 @@ figcaption {
     filter: grayscale(0%);
     cursor: pointer;
 }
+/* why-millet-end */
 
-.why-millet-sec p {
-    color: #929e1d;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 22px;
-    text-shadow: 2px 2px 4px rgb(232, 245, 113);
+/* sri-ganesh */
+.ganesh-inner-sec1{
+    width:50%;
+    text-align:center;
+    margin-right:70px;
 }
+/* sri ganesh end */
 
+/* enquire-form */
 .main-container.contact {
     background-color: #fff;
     margin-top: 120px;
@@ -417,6 +471,7 @@ figcaption {
 .section-flex.form-flex {
     max-width: 880px;
     align-items: center;
+    justify-content: space-evenly
 }
 
 .form-sec1 {
@@ -482,8 +537,15 @@ form label {
     font-style: 'poppins';
     letter-spacing: 1px;
 }
+/* enquire-form end */
 
-.section.footer {
+/* footer */
+.main-container.footer {
+    background: url(images/Footer.png) no-repeat center bottom;
+    background-size: cover; 
+    background-color: rgba(190, 214, 48, 1);
+}
+.section.footer-sec {
     text-align: center;
     padding-top: 55px;
     margin-top: 120px;
@@ -523,8 +585,46 @@ form label {
     text-align: center;
     color: #ffffff;
     font-size: 14px;
+    padding:15px 0;
 }
+/* products-carousel */
+#carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    min-height: 455px;
+  }
 
+  #carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .product {
+    box-sizing: border-box;
+    flex: 0 0 25%;
+    padding: 10px;
+  }
+  .product .card{
+    width:95%;
+  }
+  /* Side navigation */
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+.fa{
+    color:#6a6a6a;
+    font-size: 18px !important;
+}
+  .navigation button {
+    padding: 5px 10px;
+    background-color:#e3e3e3bd;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
 
 /* / Media queries for tablet and mobile devices / */
 
@@ -556,3 +656,8 @@ form label {
         max-width: 480px;
     }
 }
+
+  .container-new{
+    display: inline-block;
+    color:#000;font-size:26px;
+  }

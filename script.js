@@ -39,10 +39,56 @@ function validateForm() {
     }
 }
 
-const scrollToEnquireForm = document.getElementById("scrollToEnquireForm");
+const scrollToEnquireForm = document.getElementsByClassName("scrollToEnquireForm");
 const enquireForm = document.getElementById("enquireform");
-console.log(scrollToEnquireForm, enquireForm)
-
-scrollToEnquireForm.addEventListener("click", function() {
+function move_to(){
     enquireForm.scrollIntoView({ behavior: "smooth" });
-});
+}
+// scrollToEnquireForm.addEventListener("click", function() {
+   
+// });
+
+// carousel
+
+
+    // const container = document.getElementById("carousel-container");
+    // const carousel = document.getElementById("carousel");
+    // const products = carousel.getElementsByClassName("product");
+
+    // let currentIndex = 0;
+
+    // function scrollToProduct(index) {
+    //   if (index < 0 || index >= products.length) {
+    //     return;
+    //   }
+
+    //   currentIndex = index;
+    //   carousel.style.transform = `translateX(-${currentIndex * ( 200/ products.length)}%)`;
+    //   console.log(currentIndex,products.length   )
+    // }
+
+    // // Function to scroll the carousel to the next set of products
+    // function scrollNext() {
+    //     const lastIndex = products.length - 4;
+    //     const nextIndex = currentIndex + 1;
+      
+    //     if (nextIndex <= lastIndex) {
+    //       scrollToProduct(nextIndex);
+    //     }
+    //   }
+
+
+    // // Function to scroll the carousel to the previous set of products
+    // function scrollPrev() {
+    //     const prevIndex = currentIndex - 1;
+      
+    //     if (prevIndex >= 0) {
+    //       scrollToProduct(prevIndex);
+    //     }
+    //   }
+
+    // // Add event listeners to scroll buttons
+    // document.getElementById("next-button").addEventListener("click", scrollNext);
+    // document.getElementById("prev-button").addEventListener("click", scrollPrev);
+
+    
