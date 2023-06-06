@@ -64,7 +64,7 @@ a:hover {
 }
 
 h1 {
-    font-family: 'Pronema Serif';
+    font-family: 'pronema-serif';
     letter-spacing: 4px;
     font-size: 90px;
     font-weight: 600;
@@ -209,7 +209,7 @@ p {
 .main-container.feature {
     background: url(images/Raw&Health_banner.png) no-repeat;
     background-size: cover;
-    max-height: 1095px;
+    max-height: 1066px;
 }
 
 .subtitle {
@@ -534,7 +534,7 @@ textarea::placeholder {
 form label {
     font-size: 16px;
     font-weight: 700;
-    font-style: 'poppins';
+    font-family: 'poppins';
     letter-spacing: 1px;
 }
 /* enquire-form end */

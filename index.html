@@ -305,6 +305,7 @@
 if ($_SERVER["REQUEST_METHOD "] == "POST ") {
   $name = $_POST["name "];
   $email = $_POST["email "];
+  $phone = $_POST["phone"]
   $message = $_POST["message "];
 
   // Set the recipient email address
@@ -316,6 +317,7 @@ if ($_SERVER["REQUEST_METHOD "] == "POST ") {
   // Build the email content
   $content = "Name: $name\n ";
   $content .= "Email: $email\n ";
+  $content .= "Phone_number: $phone\n"
   $content .= "Message: $message\n ";
 
   // Set the email headers
