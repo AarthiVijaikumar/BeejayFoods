@@ -106,7 +106,7 @@ p {
 /* banner */
 
 .main-container.banner {
-    background-image: url("images/Banner.png");
+    background-image: url("images/Banner.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -207,7 +207,7 @@ p {
 /* feature */
 
 .main-container.feature {
-    background: url(images/Raw&Health_banner.png) no-repeat;
+    background: url("images/Raw&Health_banner.jpg") no-repeat;
     background-size: cover;
     max-height: 1066px;
 }
@@ -277,11 +277,10 @@ p {
 
 .icon-box-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     margin-top: 45px;
-    margin-bottom: 40px;
 }
 
 .icon-box img {
@@ -378,7 +377,7 @@ figcaption {
 }
 
 .card img {
-    width: 200px;
+    width: 155px;
     margin: 0 auto;
     border-radius: 10px;
     margin-top: 40px;
@@ -422,7 +421,7 @@ figcaption {
 
 .why-millet-sec1 .why-millet-h1{
     color:#000;
-    font-size: 68px;  
+    font-size: 65px;  
 }
 
 .why-millet-sec1 p {
