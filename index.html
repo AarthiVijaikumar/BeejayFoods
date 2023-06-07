@@ -271,11 +271,19 @@
                     <p class="footer-tagline">CONNECT WITH HEALTHY LIFE</p>
                     <p class="footer-tagline2">BeJay Agro Foods</p>
                     <div class="footer-content" >
-                        <span style="color:#000;font-size:26px;vertical-align: middle;"><img src="Icon/Location.png" alt="location-img">#5, Teppakulam East, Madurai - 625009</span><br>
+                        <span><img class="footer-img" src="Icon/Location.png" alt="location-img">&nbsp<p class="footer-p">#5, Teppakulam East, Madurai - 625009</p></span><br>
                         <span style="color:#000;font-size:26px;vertical-align: middle;">
-                            <a href="mailto:bejayagroproducts@gmail.com"><img src="Icon/mail.png" alt="email-logo">bejayagroproducts@gmail.com</a>
-                            <a href="tel:+919787667777"><img src="Icon/MObile.png" alt="mobile-logo">+91 9787667777</a><br>
-                            <span class="socialmedia-icon">Follow @ <img src="Icon/fb.png" alt="fb-logo">&nbsp;<img src="Icon/Ig.png" alt="insta-logo">&nbsp;<img src="Icon/Wtsapp.png" alt="whatsapp-logo"></span>
+                            <a href="mailto:bejayagroproducts@gmail.com">
+                                <img class="footer-img" src="Icon/mail.png" alt="email-logo">&nbsp<p class="footer-p">bejayagroproducts@gmail.com</p>
+                            </a>
+                            <a href="tel:+919787667777">
+                            <img class="footer-img" src="Icon/MObile.png" alt="mobile-logo">&nbsp<p class="footer-p">+91 9787667777</p>
+                            </a><br>
+                            <span class="socialmedia-icon">Follow @ 
+                                <a href="https://www.facebook.com/bejayfoods"><img class="footer-img" src="Icon/fb.png" alt="fb-logo"></a>&nbsp;
+                                <a href="https://www.instagram.com/bejayfoods"><img class="footer-img" src="Icon/Ig.png" alt="insta-logo"></a>&nbsp;
+                                <a href="https://api.whatsapp.com/send/?phone=+919787667777&text=I%27m+interested+in+your+products&app_absent=0" target="_blank"><img class="footer-img" src="Icon/Wtsapp.png" alt="whatsapp-logo"></a>
+                            </span>
                         </span>
                     </div>
                 </div>
@@ -287,41 +295,7 @@
 
         <!-- section9 EOC -->
         <script src="script.js"></script>
-        <!-- <form method="post " action="send_email.php ">
-  <label for="name ">Name:</label>
-  <input type="text " id="name " name="name " required>
-
-  <label for="email ">Email:</label>
-  <input type="email " id="email " name="email " required>
-
-  <label for="message ">Message:</label>
-  <textarea id="message " name="message " required></textarea>
-
-  <input type="submit " value="Submit ">
-  <p class="success-message " style="display: none; ">Thank you! Your message has been successfully submitted.</p>
-  <p class="error-message " style="display: none; ">Oops! Something went wrong. Please try again later.</p>
-</form>
-
-if ($_SERVER["REQUEST_METHOD "] == "POST ") {
-  $name = $_POST["name "];
-  $email = $_POST["email "];
-  $phone = $_POST["phone"]
-  $message = $_POST["message "];
-
-  // Set the recipient email address
-  $to = "your-email@example.com ";
-
-  // Set the email subject
-  $subject = "New Contact Form Submission ";
-
-  // Build the email content
-  $content = "Name: $name\n ";
-  $content .= "Email: $email\n ";
-  $content .= "Phone_number: $phone\n"
-  $content .= "Message: $message\n ";
-
-  // Set the email headers
-  $headers = "From: $name <$email>"; // Send the email $success = mail($to, $subject, $content, $headers); if ($success) { echo "success"; } else { echo "error"; } } ?> .success-message { color: green; } .error-message { color: red; }-->
+       
 </body>
 
 </html>

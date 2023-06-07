@@ -248,7 +248,7 @@ p {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    top:95px;
+    top:62px;
 }
 
 .our-products-inner {
@@ -580,6 +580,15 @@ form label {
     height: 30px;
 }
 
+.footer-content .footer-img{
+vertical-align: middle;
+}
+.footer-content .footer-p{
+    display:inline;
+    color:#000;
+    font-size:26px;
+    vertical-align: middle;
+}
 .copyright p {
     background: #98a51b;
     text-align: center;
