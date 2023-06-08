@@ -295,7 +295,7 @@ p {
 .main-container.milletify{
     background-color:#ffffff;
     min-height:580px;
-    margin-top:655px;
+    margin-top:150px;
 }
 figure {
     margin: 10px;
@@ -595,45 +595,53 @@ vertical-align: middle;
     font-size: 14px;
     padding:15px 0;
 }
-/* products-carousel */
-#carousel-container {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    min-height: 455px;
-  }
 
-  #carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-
-  .product {
-    box-sizing: border-box;
-    flex: 0 0 25%;
-    padding: 10px;
-  }
-  .product .card{
-    width:95%;
-  }
-  /* Side navigation */
-  .navigation {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-  }
 .fa{
     color:#6a6a6a;
     font-size: 18px !important;
 }
-  .navigation button {
-    padding: 5px 10px;
-    background-color:#e3e3e3bd;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-  }
-
+/* our-product */
+#myBtnContainer{
+    margin:0 auto;
+    }
+    .filterDiv {
+      float: left;
+      background-color: #2196F3;
+      color: #ffffff;
+      width: 100px;
+      line-height: 100px;
+      text-align: center;
+      margin: 2px;
+      display: none;
+    }
+    
+    .show {
+      display: block;
+    }
+    
+    .container {
+      margin-top: 20px;
+      overflow: hidden;
+    }
+    
+    /* Style the buttons */
+    .btn {
+      border: none;
+      outline: none;
+      padding: 12px 16px;
+      background-color: #f1f1f1;
+      cursor: pointer;
+    }
+    
+    .btn:hover {
+      background-color: #ddd;
+    }
+    
+    .btn.active {
+      background-color: #666;
+      color: white;
+    }
+/* our-product-end */
 /* / Media queries for tablet and mobile devices / */
 
 @media(max-width: 768px) {
