@@ -784,7 +784,9 @@ vertical-align: middle;
 @media(max-width: 480px) {
     /* / Mobile styles / */
 
-
+    .section-flex{
+        padding: 22px 0;
+    }
     .grid {
         width: 100%;
         filter:grayscale(0%);
@@ -828,8 +830,12 @@ vertical-align: middle;
         margin-top:-9px;
     }
     .main-container.aboutus{
-       
-        margin-top:-180px;
+        margin-top:-120px;
+        position: relative;
+        z-index:1;
+    }
+    .main-container.aboutus .section-flex{
+        padding-top:0;
     }
     .aboutus .sec-child{
         display: block;
@@ -838,10 +844,14 @@ vertical-align: middle;
         width:100%;
     }
     .inner-section1 img, .aboutus-inner-sec2 img,
-    .inner-section2 img,.milletify-img,
-    .ganesh-inner-sec1 img,.ganesh-inner-sec2 img{
+    .inner-section2 img
+    {
         width:350px;    
         margin: 0px auto 0 auto;
+    }
+    .milletify-img,.ganesh-inner-sec1 img,
+    .ganesh-inner-sec2 img{
+        width:320px;
     }
     .icon-box-wrapper{
         justify-content: space-around;
@@ -850,7 +860,7 @@ vertical-align: middle;
         flex-wrap: wrap;
     }
     .main-container.feature{
-        max-height: 955px;
+        max-height: 1010px;
     }
     figure{
         /* width: 20%; */
@@ -863,8 +873,8 @@ vertical-align: middle;
     figcaption{
         font-size: 11px;
     }
-    .our-products-wrapper{
-        margin-top:50px;
+    .our-products-wrapper,#enquireform .section{
+        margin-top:20px;
     }
     .our-products-inner .subtitle1,
     .our-products-inner .subtitle2{
@@ -892,6 +902,43 @@ vertical-align: middle;
     }
     .btn-wrapper .form-btn{
         width:80%;
+    }
+    .btn{
+        margin:10px;
+    }
+    .footer .footer-tagline{
+        top:0;
+        font-size: 15px;
+        translate: 11% -52%;
+    }
+    .section.footer-sec .bottom-logo{
+        width:220px;
+    }
+    .section.footer-sec{
+        margin-bottom: 20px;
+    }
+    .footer-content{
+        width: 90%;
+        margin:0 auto;
+    }
+    .footer .footer-tagline2{
+        font-size: 24px;
+    }
+    .footer-content .footer-p,
+    .socialmedia-icon{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .copyright p{
+        font-size:15px;
+    }
+}
+@media(max-width: 380px) {
+    .main-container.feature{
+        max-height: 1250px;
+    }
+    .milletify-img, .ganesh-inner-sec1 img, .ganesh-inner-sec2 img{
+        width:250px;
     }
 
 }
