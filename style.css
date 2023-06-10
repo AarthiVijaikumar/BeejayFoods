@@ -390,7 +390,7 @@ figcaption {
 }
 .millet-inner-sec1-p{
     color:#fff;
-    width:65px;
+    width:60%;
 }
 
 
@@ -787,6 +787,7 @@ vertical-align: middle;
 
     .grid {
         width: 100%;
+        filter:grayscale(0%);
     }
     .section-row{
         flex-direction: column;
@@ -809,12 +810,15 @@ vertical-align: middle;
     .main-container.banner img{
         width:160px;
     }
-    .main-container.banner h1,
+    .main-container.banner h1{
+        font-size: 35px;
+    }
     .main-container.aboutus h1,
     .feature-inner .feature-h1,
     .sec4-our-products-h1,
-    .main-container.our-products-main h1{
-        font-size: 40px;
+    .main-container.our-products-main h1,
+    .millet-inner-sec1 h1,.form-h1{
+        font-size: 46px;
     }
     .banner-section .desc{
         font-size:15px; 
@@ -830,11 +834,64 @@ vertical-align: middle;
     .aboutus .sec-child{
         display: block;
     }
-    .sec-child .text-wrapper{
+    .sec-child .text-wrapper,.aboutus .inner-section1,.aboutus .inner-section2{
         width:100%;
     }
-    .inner-section1 img, .aboutus-inner-sec2 img{
+    .inner-section1 img, .aboutus-inner-sec2 img,
+    .inner-section2 img,.milletify-img,
+    .ganesh-inner-sec1 img,.ganesh-inner-sec2 img{
         width:350px;    
         margin: 0px auto 0 auto;
     }
+    .icon-box-wrapper{
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+    .main-container.feature{
+        max-height: 955px;
+    }
+    figure{
+        /* width: 20%; */
+        flex: 0 0 20%;
+        text-align: center;
+    }
+    .icon-box img{
+        width:65px;
+    }
+    figcaption{
+        font-size: 11px;
+    }
+    .our-products-wrapper{
+        margin-top:50px;
+    }
+    .our-products-inner .subtitle1,
+    .our-products-inner .subtitle2{
+        margin-top: 0;
+        font-size: 30px;
+    }
+    .card-wrapper{
+        flex-direction: column;
+    }
+    .card-wrapper .card{
+        margin:20px;
+    }
+    .icon-box-sec5{
+        flex:0 0 40%;
+    }
+    .form-p{
+        font-size:33px ;
+    }
+    .section-flex.form-flex{
+        padding-top:15px;
+    }
+    .form-sec1, .form-sec2 {
+        width: 100%;
+        padding: 20px;
+    }
+    .btn-wrapper .form-btn{
+        width:80%;
+    }
+
 }
