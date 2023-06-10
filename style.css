@@ -83,6 +83,7 @@ p {
 .main-container {
     width: 100%;
     margin: 0 auto;
+    padding: 0 !important;
 }
 
 .section {
@@ -480,6 +481,7 @@ figcaption {
 /*milletify end*/
 
 /*why-millet*/
+
 .why-millet-sec1{
     width:40%;
     text-align:center;
@@ -677,22 +679,26 @@ vertical-align: middle;
 
 @media(max-width: 810px) {
     /* / Tablet styles / */
-    .main-container{
+    /* .main-container{
         padding: 25px;
-    }
+    } */
     .section-flex {
         flex-direction: column;
     }
     .section-flex {
         margin:10px auto;
     }
+    .section .banner-section{
+        padding-left: 15px;
+    }
    
     .main-container.feature{
-        max-height:776px;
+        max-height:640px;
     }
     .feature-inner{
         width: 100%;
         padding-top: 0px;
+        padding-left:15px;
     }
     .our-products-wrapper{
         position: unset;
@@ -730,6 +736,9 @@ vertical-align: middle;
     width:100%;
     margin:50px auto 0 0px;
   }
+  .icon-box-wrapper{
+    justify-content:space-around;
+  }
   .icon-box-wrapper.sec5-icon-wrap,
   .ganesh-inner-sec1,.ganesh-inner-sec2{
     width:100% !important;
@@ -748,9 +757,7 @@ vertical-align: middle;
     margin-right: 0px;
     margin-top:20px;    
   }
-  .grid{
-    width:230px;
-  }
+
   .filterDiv{
     flex:40% 0;
   }
@@ -820,7 +827,7 @@ vertical-align: middle;
     .sec4-our-products-h1,
     .main-container.our-products-main h1,
     .millet-inner-sec1 h1,.form-h1{
-        font-size: 46px;
+        font-size: 45px;
     }
     .banner-section .desc{
         font-size:15px; 
@@ -839,6 +846,7 @@ vertical-align: middle;
     }
     .aboutus .sec-child{
         display: block;
+        margin:0 20px;
     }
     .sec-child .text-wrapper,.aboutus .inner-section1,.aboutus .inner-section2{
         width:100%;
@@ -860,7 +868,8 @@ vertical-align: middle;
         flex-wrap: wrap;
     }
     .main-container.feature{
-        max-height: 1010px;
+        max-height: 927px;
+        padding: 0 10px;
     }
     figure{
         /* width: 20%; */
@@ -898,7 +907,7 @@ vertical-align: middle;
     }
     .form-sec1, .form-sec2 {
         width: 100%;
-        padding: 20px;
+        padding: 0 20px;
     }
     .btn-wrapper .form-btn{
         width:80%;
@@ -935,7 +944,8 @@ vertical-align: middle;
 }
 @media(max-width: 380px) {
     .main-container.feature{
-        max-height: 1250px;
+        max-height: 927px;
+        padding: 0 10px;
     }
     .milletify-img, .ganesh-inner-sec1 img, .ganesh-inner-sec2 img{
         width:250px;
