@@ -679,9 +679,6 @@ vertical-align: middle;
 
 @media(max-width: 810px) {
     /* / Tablet styles / */
-    /* .main-container{
-        padding: 25px;
-    } */
     .section-flex {
         flex-direction: column;
     }
@@ -698,7 +695,7 @@ vertical-align: middle;
     .feature-inner{
         width: 100%;
         padding-top: 0px;
-        padding-left:15px;
+        padding:10px;
     }
     .our-products-wrapper{
         position: unset;
@@ -868,12 +865,12 @@ vertical-align: middle;
         flex-wrap: wrap;
     }
     .main-container.feature{
-        max-height: 927px;
+        max-height: 890px;
         padding: 0 10px;
     }
     figure{
         /* width: 20%; */
-        flex: 0 0 20%;
+        flex: 0 0 25%;
         text-align: center;
     }
     .icon-box img{
@@ -883,7 +880,7 @@ vertical-align: middle;
         font-size: 11px;
     }
     .our-products-wrapper,#enquireform .section{
-        margin-top:20px;
+        margin-top:70px;
     }
     .our-products-inner .subtitle1,
     .our-products-inner .subtitle2{
@@ -939,16 +936,24 @@ vertical-align: middle;
         font-weight: 500;
     }
     .copyright p{
-        font-size:15px;
+        font-size:16px;
     }
 }
-@media(max-width: 380px) {
+@media(max-width: 390px) {
     .main-container.feature{
-        max-height: 927px;
+        max-height: 962px;
         padding: 0 10px;
     }
     .milletify-img, .ganesh-inner-sec1 img, .ganesh-inner-sec2 img{
         width:250px;
+    }
+    .our-products-wrapper,#enquireform .section{
+        margin-top:30px;
+    }
+    figure{
+        /* width: 20%; */
+        flex: 0 0 20%;
+        text-align: center;
     }
 
 }
