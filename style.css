@@ -635,10 +635,9 @@ form label {
     margin: 0 auto;
     border-radius: 15px;
     position: absolute;
-    top: -65px;
-    translate: 50% 50%;
+    top: -30px;
+    transform: translate(50%);
 }
-
 .footer .footer-tagline2 {
     color: #000;
     font-family: 'eina-bold';
@@ -763,6 +762,7 @@ vertical-align: middle;
   }
   .main-container.contact{
     margin-top:0px;
+    margin-bottom:100px;
   }
   .form-sec1,.form-sec2{
     width:70%;
@@ -775,9 +775,11 @@ vertical-align: middle;
     margin-top: 0px;
   }
   .footer .footer-tagline{
-    top:-90px;
-    translate: 10% 94%;
-    width:80%;
+    top: 0;
+    transform: translate(50%,-50%);
+  }
+  .footer-tagline p{
+    font-size:15px;
   }
   .main-container.footer{
     padding:0px;
@@ -792,8 +794,9 @@ vertical-align: middle;
         padding: 22px 0;
     }
     .grid {
-        width: 100%;
-        filter:grayscale(0%);
+        width: 90%;
+        margin: 5px auto;
+        filter: grayscale(0%);
     }
     .section-row{
         flex-direction: column;
@@ -913,9 +916,8 @@ vertical-align: middle;
         margin:10px;
     }
     .footer .footer-tagline{
-        top:0;
-        font-size: 15px;
-        translate: 11% -52%;
+        transform: translate(30%,-50%);
+        width: 60%;
     }
     .section.footer-sec .bottom-logo{
         width:220px;
