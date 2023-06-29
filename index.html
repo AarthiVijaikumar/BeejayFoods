@@ -9,6 +9,7 @@
     <link href="https://fonts.cdnfonts.com/css/pronema-serif" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script> -->
 </head>
 
 <body>
@@ -397,7 +398,7 @@
                 <h1 class="form-h1">LOVE OUR PRODUCTS?</h1>
                 <p class="form-p">GET IN TOUCH</p>
 
-                <form action="mailto:bejayagroproducts@gmail.com" method="POST">
+                <form action="mailto:bejayagroproducts@gmail.com" method="POST" onsubmit="return validateForm()">
                     <div class="section-flex form-flex">
                         <div class="form-sec1">
                             <label for="name">Name:</label><br>
