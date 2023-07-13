@@ -1,0 +1,32 @@
+{
+	"success_text" : "Mensagem enviada com sucesso. Retornaremos em breve",
+	"something_wrong" : "Algo deu errado!",
+	"required_field" : "{{1}} required",
+	"number_invalid" : "Invalid {{1}}. Apenas números são aceitos",
+	"email_invalid" : "Invalid {{1}}",
+	"url_invalid" : "Invalid {{1}}. Verifique o URL",
+	"file" : {
+		"error" : "Erro ao carregar: {{1}}",
+		"type" : "Extensão não aceita: {{1}}",
+		"size" : "Seus arquivos excedem o limite de {{1}}MB, indicamos o uso da ferramenta <a href=\"https://www.wetransfer.com/\" target=\"_blank\">WeTransfer</a>",
+		"server_limit" : "Seu arquivo é maior do que o seu provedor de hospedagem permite",
+		"generic" : "Erro no arquivo {{1}}: {{2}}"
+	},
+	"recaptcha" : {
+		"empty" : "Responda ao CAPTCHA",
+		"bot" : "Erro no Google reCAPTCHA: {{1}}",
+		"no_response" : "Sem resposta de <a href=\"{{1}}\" target=\"_blank\">Google reCAPTCHA</a><br />Verifique se o seu provedor de hospedagem está bloqueando cURL or file_get_contents() functions"
+	},
+	"emails_info" : {
+		"error" : "Erro ao enviar: {{1}}",
+		"subject" : "Nova mensagem do formulário de contato",
+		"custom_before_subject" : "",
+		"body" : "Olá,<br />nova mensagem foi recebida do formulário de contato do seu site.<br /><br />Seguem os dados abaixo:<br />",
+		"body_ip_address" : "IP address: {{1}}",
+		"confirmation" : {
+			"subject" : "Recebemos sua mensagem",
+			"body" : "Obrigado!<br />Sua mensagem foi recebida. Responderemos o mais rápido possível.",
+			"body_html_copy" : "<br /><br />Data summary:<br />"
+		}
+	}
+}

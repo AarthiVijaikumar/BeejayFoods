@@ -126,7 +126,7 @@ p {
 }
 
 .banner-section .p1 {
-    color: #7A0037;
+    color: #761002;
     font-family: 'Poppins';
     font-size: 32px;
     font-weight: 500;
@@ -181,7 +181,7 @@ p {
     border-style: solid;
     border-radius: 3px;
     border-width: 1px 1px 1px 1px;
-    border-color: #67002F;
+    border-color:#761002;
     transition: background 0.5s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 
@@ -199,7 +199,7 @@ p {
 }
 
 .show-hide:hover {
-    background-color: #67002F;
+    background-color: #761002;
     cursor: pointer;
 }
 
@@ -626,7 +626,7 @@ form label {
 
 .footer .footer-tagline {
     text-align: center;
-    background: #67002e;
+    background: #761002;
     font-size: 22px;
     letter-spacing: 2px;
     padding: 15px 50px;
