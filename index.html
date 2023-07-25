@@ -20,8 +20,11 @@
 </head>
 
 <body>
-    <div class="main-container banner">
+    <div class="main-container main" style="/* min-height: 138px; */">
         <img src="images/Top Logo.png" alt="Beejay_logo">
+        <div class="header-tag"><p style="text-align: center;color:#000;font-weight:500;font-size: 16px;">CONNECT WITH HEALTHY LIFE</p></div>
+    </div>
+    <div class="main-container banner">
         <div class="section">
             <div class="banner-section">
                 <p class="p1">Make the</p>
@@ -123,7 +126,9 @@
                                 <div class="card-container">
                                     <h4 class="product-title">Whole Wheat <br> Chakki Atta</h4>
                                     <p>Grinned in a traditional way, Pure andnatural way to make to make your chappati &amp Roti</p>    
-                                    <button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>
+                                    <!--<button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>-->
+				    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/528768/88/354">Enquire Now</a></button>
+
                                 </div>
                             </div>
                             <div class="card">
@@ -131,7 +136,8 @@
                                 <div class="card-container">
                                     <h4 class="product-title">Multi Grains<br>Atta</h4>
                                     <p>Grinned in a traditional way, Pure andnatural way to make to make your chappati &amp Roti</p>
-                                    <button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>
+                                    <!--<button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>-->
+				    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/9166720/88/358">Enquire Now</a></button>
                                 </div>
                             </div>
                     </div>
@@ -142,15 +148,12 @@
         
         <div class="main-container milletify">
             <div>
-                <div style="justify-content: space-between;max-width: 2760px;margin: 0 auto;padding:0" class="section-flex">
+                <div style="justify-content: space-between;max-width: 100%;margin: 0 auto;padding:0" class="section-flex">
                     <div class="millet-inner-sec1">
                         <h1 style="color: #761002;font-size: 65px;">Milletify to Unify</h1>
                         <p class="millet-inner-sec1-p">With BeJay's Milletify, people can live robustly. Our foremost objective is to make our people know the importance of being healthy so they enjoy their lives. Products of Milletify: Dosa Mix, millets Adai Mix, millets Cookies and
                             millets Noodles.
                         </p>
-                    </div>
-                    <div class="millet-inner-sec2">
-                        <img class="milletify-img" src="images/Milletify logo.png" alt="Milletify-logo" width="580px">
                         <section class="icon-box-wrapper sec5-icon-wrap ">
                             <figure class="icon-box-sec5">
                                 <img src="Icon/Taste.png" alt=" ">
@@ -169,6 +172,11 @@
                                 <figcaption>No Maida</figcaption>
                             </figure>
                         </section>
+                    </div>
+                    <div class="millet-inner-sec2">
+                        <img class="milletify-img" src="images/Milletify logo.png" alt="Milletify-logo" width="580px"><br>
+                        <img class="milletify-img" src="images/Group 9.png" alt="Milletify-logo" width="580px">
+                       
                     </div>  
                 </div>
             </div>
@@ -226,19 +234,20 @@
                 <div id="myBtnContainer">
                     <h1 style="color:#000;">Our Products</h1>
                     <!-- <button class="btn active" onclick="filterSelection('all')"> Show all</button> -->
-                    <button class="btn active" onclick="filterSelection('MandR')"> Miller and Rice</button>
+                    <button class="btn active" onclick="filterSelection('MandR')"> Millets and Traditional Rice</button>
                     <button class="btn" onclick="filterSelection('MilCook')"> Milletify Cookies</button>
-                    <button class="btn" onclick="filterSelection('FandRa')"> Flour and Rava</button>
+                    <button class="btn" onclick="filterSelection('FandRa')"> Flour products and Rava</button>
                   </div>                  
                     <div class="container">
                         <div class="filterDiv MandR">
                             <div class="card">
                                 <img src="product_imgs/kodo.png" alt="atta-pouch">
                                 <div class="card-container">
-                                    <h4 class="product-title">BeJay Varagu Arisi</h4>
+                                    <h4 class="product-title">Varagu Arisi</h4>
+                                    <span class="sub-title">( Kodo Millet )</span>
                                     <p>Available in <br>500gm</p>
                                     <!--<button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>-->
-				                    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/770048/88/351">Enquire Now</a></button>
+				    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/770048/88/351">Enquire Now</a></button>
 
                                 </div>
                             </div>
@@ -248,10 +257,11 @@
                             <div class="card">
                                 <img src="product_imgs/bany.png"   alt="atta-pouch">
                                 <div class="card-container">
-                                    <h4 class="product-title">BeJay Kuthiravali Arisi</h4>
+                                    <h4 class="product-title">Kuthiravali Arisi</h4>
+                                    <span class="sub-title">( Barnyard Millet )</span>
                                     <p>Available in <br>500gm</p>
                                     <!--<button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>-->
-				                    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/3140096/88/350">Enquire Now</a></button>
+				    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/3140096/88/350">Enquire Now</a></button>
                                 </div>
                             </div>
                             
@@ -260,31 +270,50 @@
                             <div class="card">
                                 <img src="product_imgs/Little millet.png"   alt="atta-pouch">
                                 <div class="card-container">
-                                    <h4 class="product-title">BeJay Samai Arisi</h4>
+                                    <h4 class="product-title">Samai Arisi</h4>
+                                    <span class="sub-title">( Little Millet )</span>
                                     <p>Available in <br>500gm</p>
                                     <!--<button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>-->
-				                    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/8196736/88/352">Enquire Now</a></button>
+				    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/8196736/88/352">Enquire Now</a></button>
                                 </div>
                             </div>
                         </div>
-                        <div class="filterDiv MandR">
+                        
+			<div class="filterDiv MandR">
                             <div class="card">
                                 <img src="product_imgs/fox millet.png"   alt="atta-pouch">
                                 <div class="card-container">
-                                    <h4 class="product-title">BeJay Thinai Arisi</h4>
+                                    <h4 class="product-title">Thinai Arisi</h4>
+                                    <span class="sub-title">( Foxtail Millet )</span>
                                     <p>Available in <br>500gm</p>
-                                    <button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>
+                                    <!--<button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>-->
+				    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/7173504/88/353">Enquire Now</a></button>
                                 </div>
                             </div>
                         </div>
+			
+			<div class="filterDiv MandR">
+                            <div class="card">
+                                <img src="product_imgs/Red Rice.png"   alt="atta-pouch">
+                                <div class="card-container">
+                                    <h4 class="product-title">Sigappu Arisi</h4>
+                                    <span class="sub-title">( Red Rice )</span>
+                                    <p>Available in <br>500gm</p>
+                                    <!--<button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>-->
+				    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/2862592/88/226">Enquire Now</a></button>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="filterDiv MandR">           
                             <div class="card">
                                 <img src="product_imgs/karuppu.png"   alt="atta-pouch">
                                 <div class="card-container">
-                                    <h4 class="product-title"> BeJay Kavuni Arisi</h4>
+                                    <h4 class="product-title">Kavuni Arisi</h4>
+                                    <span class="sub-title">( Forbidden Rice )</span>
                                     <p>Available in <br>500gm</p>
                                     <!--<button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>-->
-				                    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/4761728/88/225">Enquire Now</a></button>
+				    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/4761728/88/225">Enquire Now</a></button>
 
                                 </div>
                             </div>
@@ -293,9 +322,11 @@
                             <div class="card">
                                 <img src="product_imgs/Mapillai Samba.png"   alt="atta-pouch">
                                 <div class="card-container">
-                                    <h4 class="product-title">  BeJay Mapillai Samba Arisi</h4>
+                                    <h4 class="product-title">Mapillai Samba Arisi</h4>
+                                    <span class="sub-title">( Bride Groom Rice )</span>
                                     <p>Available in <br>500gm</p>
-                                    <button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>
+                                    <!--<button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>-->
+				    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/4965632/88/227">Enquire Now</a></button>
                                 </div>
                             </div>
                         </div>
@@ -303,10 +334,11 @@
                             <div class="card">
                                 <img src="product_imgs/Moongil Arisi.png"   alt="atta-pouch">
                                 <div class="card-container">
-                                    <h4 class="product-title">BeJay Moongil Arisi</h4>
-                                    <p>Available in <br>500gm</p>
+                                    <h4 class="product-title">Moongil Arisi</h4>
+                                    <span class="sub-title">( Bamboo Rice )</span>
+                                    <p>Available in <br>250gm</p>
                                     <!--<button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>-->
-				                    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/5820800/88/224">Enquire Now</a></button>
+				    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/5820800/88/224">Enquire Now</a></button>
                                 </div>
                             </div>
                         </div>
@@ -315,6 +347,7 @@
                                 <img src="product_imgs/Finger Cookies.png"   alt="atta-pouch">
                                 <div class="card-container">
                                     <h4 class="product-title">Ragi Cookies</h4>
+                                    <span class="sub-title">( Finger Millet Cookies )</span>
                                     <p>Available in <br>100gm</p>
                                     <button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>
                                 </div>
@@ -325,6 +358,7 @@
                                 <img src="product_imgs/Pearl cookies.png"   alt="atta-pouch">
                                 <div class="card-container">
                                     <h4 class="product-title">Kambu Cookies</h4>
+                                    <span class="sub-title">( Pearl Millet Cookies )</span>
                                     <p>Available in <br>100gm</p>
                                     <button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>
                                 </div>
@@ -335,6 +369,7 @@
                                 <img src="product_imgs/foxtail cookies.png"   alt="atta-pouch">
                                 <div class="card-container">
                                     <h4 class="product-title">Thinai Millet Cookies</h4>
+                                    <span class="sub-title">( Foxtail Millet Cookies )</span>
                                     <p>Available in <br>100gm</p>
                                     <button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>
                                 </div>
@@ -345,6 +380,7 @@
                                 <img src="product_imgs/Multi cookies.png"   alt="atta-pouch">
                                 <div class="card-container">
                                     <h4 class="product-title">Multi Millet Cookies</h4>
+                                    <span style="color:#fff;" class="sub-title">...</span>
                                     <p>Available in <br>100gm</p>
                                     <button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>
                                 </div>
@@ -354,9 +390,11 @@
                             <div class="card">
                                 <img src="product_imgs/grain atta.png"   alt="atta-pouch">
                                 <div class="card-container">
-                                    <h4 class="product-title">BeJay Multigrain Atta</h4>
+                                    <h4 class="product-title">Multigrain Atta</h4>
+                                    <span style="color:#fff;" class="sub-title">...</span>
                                     <p>Available in <br>500gm</p>
-                                    <button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>
+                                    <!--<button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>-->
+				    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/9166720/88/358">Enquire Now</a></button>
                                 </div>
                             </div>
                         </div>
@@ -364,9 +402,11 @@
                             <div class="card">
                                 <img src="product_imgs/combo.png "   alt="atta-pouch">
                                 <div class="card-container">
-                                    <h4 class="product-title">BeJay Chakki Atta</h4>
+                                    <h4 class="product-title">Chakki Atta</h4>
+                                    <span style="color:#fff;" class="sub-title">...</span>
                                     <p>Available in <br>500gms,1kg,5kg &amp 10kg</p>
-                                    <button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>
+                                    <!--<button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>-->
+                                    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/528768/88/354">Enquire Now</a></button>
                                 </div>
                             </div>
                         </div>
@@ -374,7 +414,8 @@
                             <div class="card">
                                 <img src="product_imgs/Thinai Maavu.png"   alt="atta-pouch">
                                 <div class="card-container">
-                                    <h4 class="product-title">BeJay Thinai Maavu</h4>
+                                    <h4 class="product-title">Thinai Maavu</h4>
+                                    <span class="sub-title">( Foxtail Millet Flour )</span>
                                     <p>Available in <br>500gm</p>
                                     <button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>
                                 </div>
@@ -384,9 +425,11 @@
                             <div class="card">
                                 <img src="product_imgs/Bansi Rava.png"   alt="atta-pouch">
                                 <div class="card-container">
-                                    <h4 class="product-title">BeJay Bansi Rava</h4>
+                                    <h4 class="product-title">Bansi Rava</h4>
+                                    <span style="color:#fff;" class="sub-title">...</span>
                                     <p>Available in <br>500gm</p>
-                                    <button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>
+                                    <!--<button class="scrollToEnquireForm" onclick="move_to()">Enquire Now</button>-->
+				    <button class="scrollToEnquireForm"><a href="https://terrykart.com/product/3583488/88/359">Enquire Now</a></button>
                                 </div>
                             </div>
                         </div>
@@ -401,7 +444,9 @@
                 </div>
                 <div class="ganesh-inner-sec2" style="width:50%;">
                     <img src="images/Sri ganesh logo.png" alt="sri-ganesh-logo">
-                    <p style="color:#000 ">To reach the milestone of success, we worked under various trading concerns dealing with wheat, rice, and dal for 10 years. We are glad of our unity as we were able to initiate Ganapathy Trading Company.</p>
+                    <p style="color:#000 ">BeJay is the embodiment of Sri Ganesh's legacy, having reached a remarkable milestone of 40 years. 
+		    With a vision to promote healthy living, BeJay has now ventured into the world of millets and multigrain products. 
+		    Embracing the changing trends and demands of the health-conscious consumer, BeJay is dedicated to introducing a wide range of nutritious and health-oriented products under its new brand.</p>
                 </div>
 
             </div>

@@ -2,7 +2,7 @@
 
 // If the request is not AJAX, stop it
 if (!isAjaxRequest()) {
-    echo 'Check your page, maybe you imported jQuery library twice, the slim version or it is missing.';
+    echo "Check your page, maybe you imported jQuery library twice, the slim version or it is missing.";
     exit;
 }
 
