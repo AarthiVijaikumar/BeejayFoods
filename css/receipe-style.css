@@ -54,9 +54,9 @@ a, h1, p {
 }
 .banner-title{
     text-align: center;
-    font-size: 65px;
+    font-size: 60px;
     font-family: pronema-serif;
-    letter-spacing: 13px;
+    letter-spacing: 1px;
 }
 .receipe-heading{
     font-weight: 900;
