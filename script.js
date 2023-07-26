@@ -32,11 +32,12 @@ function validateForm() {
         return false;
     }
 }
-const scrollToEnquireForm = document.getElementsByClassName("scrollToEnquireForm");
+//const scrollToEnquireForm = document.getElementsByClassName("scrollToEnquireForm");
 const enquireForm = document.getElementById("enquireform");
 function move_to(){
     enquireForm.scrollIntoView({ behavior: "smooth" });
 }
+
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
@@ -60,7 +61,6 @@ function w3RemoveClass(element, name) {
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
 
-  console.log(arr1.length,arr2)
   for (i = 0; i < arr2.length; i++) {
     while (arr1.indexOf(arr2[i]) > -1) {
       arr1.splice(arr1.indexOf(arr2[i]), 1);     
