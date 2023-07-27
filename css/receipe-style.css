@@ -29,7 +29,7 @@ a, h1, p {
 }
 .main-container.receipe-banner:before{
     content:'';
-    background:url("../recipes/receipe-images/banner\ \(2\).png");
+    background:url("../recipes/receipe-images/receipe-banner.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,6 +138,10 @@ a, h1, p {
     width: 400px;
     display:block;
 }
+.ind-receipe-image{
+    width:1200px;
+    height:600px;
+}
 .ind-receipe-inner{
     display:flex;
 }
@@ -181,5 +185,9 @@ a, h1, p {
     .ind-receipe-title{
         font-size: 18px;
         text-align: center;
+    }
+    .ind-receipe-image{
+        width:600px;
+        height:300px;
     }
 }
