@@ -194,7 +194,7 @@ p {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    top: 85px;
+    top: 185px;
 }
 .our-products-inner {
     width: 70%}
@@ -269,8 +269,8 @@ p {
 .main-container.milletify {
     background-color: #fff;
     min-height: 580px;
-    margin-top: 34%;
-    margin-bottom: 5%}
+    margin-top: 37%;
+    margin-bottom: 3%}
 figure {
     margin: 10px;
     width: 20%}
@@ -541,7 +541,11 @@ form label {
     border-radius: 9px;
     color: #000;
 }
-
+/* @media(min-width:2150px){
+    .our-products-wrapper{
+        top:184px;
+    }
+} */
 @media(max-width:810px) {
     .section-flex {
     flex-direction: column;
