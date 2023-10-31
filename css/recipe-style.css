@@ -29,7 +29,7 @@ a, h1, p {
 }
 .main-container.recipe-banner:before{
     content:'';
-    background:url("../recipes/recipe-images/recipe-banner.png");
+    background-image:url("../recipes/recipe-images/recipe-banner.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
