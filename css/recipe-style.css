@@ -4,6 +4,7 @@
     background-repeat: repeat;
     background-size: cover;
 } */
+
 @font-face {
     font-family: tamil-font;
     src: url("../Fonts/akshar.ttf");
@@ -16,6 +17,7 @@
     font-family: pronema-serif;
     src: url("Fonts/pronemaSerif.ttf");
 }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@300&display=swap');
 ol{
     font-size:18px;
 }
