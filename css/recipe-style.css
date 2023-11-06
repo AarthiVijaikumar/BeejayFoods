@@ -192,4 +192,38 @@ a, h1, p {
         width:600px;
         height:300px;
     }
+    .main-container.recipes-cont h1
+    {
+        color: #000;
+        text-align: center;
+        font-size: 48px;
+    }
+        .recipes-cont .recipe-inner-sec1,
+        .recipes-cont .recipe-inner-sec2
+    {
+        width:100%;
+        margin:10px ;
+        padding:unset;
+    }
+        .recipe-inner-sec1 img
+    {
+            border-radius: unset !important;
+    }
+        .m-receipe-h1
+    {
+        text-align: center;
+        font-size: 48px;
+        color:#72bf44 !important;
+    }
+        .m-receipe-p
+    {
+        line-height: 37px;
+        font-size: 20px;
+        margin: 10px;
+        letter-spacing: 1.5px;
+    }
+        .main-recipe-button
+    {
+        margin:0 auto;
+    }
 }
